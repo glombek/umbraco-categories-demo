@@ -58,7 +58,7 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		public virtual global::System.Collections.Generic.List<string> CategoriesAsBlockList => this.Value<global::System.Collections.Generic.List<string>>(_publishedValueFallback, "categoriesAsBlockList");
 
 		///<summary>
-		/// Categories as nodes (external) (Contentment)
+		/// Categories: as nodes (external) (Contentment)
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.2.1+25a20cf")]
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
